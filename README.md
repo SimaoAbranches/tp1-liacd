@@ -1,14 +1,15 @@
 # Retail Intelligence Pipeline: From Raw Detections to Real Intelligence
 
-Este projeto implementa um pipeline completo de análise de dados para retalho, capaz de transformar eventos anónimos de visão computacional em relatórios estratégicos para gestão.
+O objetivo deste projeto é o desenvolvimento de um sistema capaz de converter dados brutos de sensores de visão computacional, que registam presenças anónimas em zonas de uma loja, em inteligência de negócio acionável.
+O desafio central reside na fragmentação dos dados: os sensores captam eventos, mas não a identidade contínua dos clientes. O pipeline desenvolvido aborda este problema através de uma arquitetura modular que separa o processamento algorítmico da interpretação semântica realizada por modelos de linguagem de larga escala (LLMs).
 
-**UC:** Interação com Modelos de Larga Escala (LIACD)  
-**Autor:** Simão Abranches  
+**UC:** Interação com Modelos de Larga Escala 
+**Autor:** Simão Abranches nº53682
 **Modelo LLM:** qwen2.5:0.5b (via Ollama)
 
 ---
 
-## 🏗 Estrutura do Projeto
+## Estrutura do Projeto
 
 O repositório segue a estrutura organizada exigida para a submissão técnica:
 
@@ -20,7 +21,7 @@ O repositório segue a estrutura organizada exigida para a submissão técnica:
 
 ---
 
-## 🚀 Como Executar o Pipeline
+## Como Executar o Pipeline
 
 O pipeline foi desenhado de forma modular. Para gerar o relatório final, executa os seguintes comandos no terminal:
 
