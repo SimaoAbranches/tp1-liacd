@@ -1,0 +1,75 @@
+{
+  "dataset": "data/events.csv",
+  "pipeline_ok": true,
+  "pipeline_steps": {
+    "stitcher": {
+      "ok": true
+    },
+    "analytics": {
+      "ok": true
+    },
+    "insights": {
+      "ok": true
+    },
+    "report": {
+      "ok": true
+    }
+  },
+  "metrics": {
+    "consistency": {
+      "score": 0.9876,
+      "pct": "98.76%",
+      "violations": 75,
+      "total_trajectories": 6055
+    },
+    "coverage": {
+      "score": 1.0,
+      "pct": "100.00%",
+      "entry_events": 85347,
+      "journeys_rows": 85347
+    },
+    "completeness": {
+      "score": 0.1903,
+      "pct": "19.03%",
+      "complete": 1152,
+      "total": 6055
+    },
+    "anomaly": {
+      "score": 0.0,
+      "pct": "0.00%",
+      "detected": 0,
+      "total_anomalies": 39
+    },
+    "numeric": {
+      "score": 1.0,
+      "pct": "100.00%",
+      "verified": 22,
+      "total": 22
+    },
+    "hallucination": {
+      "score": 0.8966,
+      "pct": "89.66%",
+      "passed": 26,
+      "total_checks": 29,
+      "failures": [
+        {
+          "type": "zone",
+          "value": "Z_N",
+          "ok": false
+        },
+        {
+          "type": "zone",
+          "value": "Z_S",
+          "ok": false
+        },
+        {
+          "type": "zone",
+          "value": "Z_C",
+          "ok": false
+        }
+      ]
+    }
+  },
+  "global_score": 0.6246,
+  "global_pct": "62.46%"
+}

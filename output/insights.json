@@ -1,0 +1,78 @@
+{
+  "estrategia_A_zero_shot": {
+    "insights": [],
+    "resumo_executivo": "Erro de parsing no JSON.",
+    "_parse_error": true,
+    "_metadata": {
+      "strategy": "A (zero-shot)",
+      "model": "llama3.1:8b",
+      "elapsed_s": 83.6
+    }
+  },
+  "estrategia_B_few_shot": {
+    "insights": [
+      {
+        "id": "INS_001",
+        "categoria": "trafego",
+        "titulo": "Total de visitantes na semana foi de 28.377.",
+        "observacao": "A média diária foi de 4.056,43 e o dia mais movimentado foi 15/03/2025.",
+        "implicacao": "O aumento do tráfego pode indicar sucesso de promoções ou eventos.",
+        "recomendacao": "Verificar se houve promoção ativa e analisar os dados do dia mais movimentado.",
+        "urgencia": "esta_semana",
+        "confianca": 0.8
+      },
+      {
+        "id": "INS_002",
+        "categoria": "zona",
+        "titulo": "Z_C2 teve o maior tráfego com 17.976 visitantes.",
+        "observacao": "O Z_C1 teve 15.209 visitantes, seguido de Z_C3 com 9.686 e Z_E1/Z_E2 com 5.429/5.283.",
+        "implicacao": "As zonas mais movimentadas podem precisar de ajustes no layout ou promoções específicas.",
+        "recomendacao": "Ajustar o layout das zonas mais movimentadas e replicar as promoções que funcionaram.",
+        "urgencia": "esta_semana",
+        "confianca": 0.9
+      },
+      {
+        "id": "INS_003",
+        "categoria": "funil",
+        "titulo": "Taxa de conversão para caixa foi de 56%.",
+        "observacao": "Ainda assim, 4.487 pessoas não chegaram ao caixa.",
+        "implicacao": "O alto índice de conversão pode indicar eficiência no processo de compra, mas a perda de clientes no final do funil é um problema.",
+        "recomendacao": "Melhorar o atendimento e otimizar o fluxo para reduzir a perda de clientes.",
+        "urgencia": "esta_semana",
+        "confianca": 0.85
+      },
+      {
+        "id": "INS_004",
+        "categoria": "anomalia",
+        "titulo": "Z_N4 teve 0 visitantes no domingo às 16h (habitual: 23).",
+        "observacao": "Essa é uma anomalia significativa que precisa de atenção imediata.",
+        "implicacao": "A falta de visitas pode indicar problemas de sinalização, obstáculos físicos ou outros fatores.",
+        "recomendacao": "Verificar imediatamente se há obstáculos no corredor Z_N4 e resolver o problema.",
+        "urgencia": "imediata",
+        "confianca": 0.95
+      }
+    ],
+    "resumo_executivo": [
+      "Total de visitantes na semana foi de 28.377, com média diária de 4.056,43 e dia mais movimentado em 15/03/2025.",
+      "Z_C2 teve o maior tráfego com 17.976 visitantes, seguido por Z_C1, Z_C3 e Z_E1/Z_E2.",
+      "Taxa de conversão para caixa foi de 56%, mas 4.487 pessoas não chegaram ao caixa."
+    ],
+    "_metadata": {
+      "strategy": "B (few-shot)",
+      "model": "llama3.1:8b",
+      "elapsed_s": 71.6
+    }
+  },
+  "comparacao": {
+    "estrategia_A_zero_shot": {
+      "estrategia": "zero-shot",
+      "n_insights": 0,
+      "erro": true
+    },
+    "estrategia_B_few_shot": {
+      "estrategia": "few-shot",
+      "n_insights": 4,
+      "confianca_media": 0.85
+    }
+  }
+}

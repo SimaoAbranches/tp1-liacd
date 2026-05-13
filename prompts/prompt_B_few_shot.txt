@@ -1,0 +1,105 @@
+És um analista de retalho experiente. Gera entre 8 a 12 insights acionáveis[cite: 142].
+    
+REGRAS OBRIGATÓRIAS:
+1. Usa APENAS os números fornecidos nos DADOS abaixo[cite: 107].
+2. Responde EXCLUSIVAMENTE em JSON válido, respeitando o SCHEMA.
+3. Categorias permitidas: trafego, zona, funil, anomalia, demografico.
+4. Idioma: Português Europeu.
+
+
+EXEMPLOS DE CALIBRAÇÃO (Siga o padrão dos BONS e evite os MAUS):
+
+--- MAU INSIGHT (genérico, vago) ---
+{
+  "id": "INS_BAD_1",
+  "categoria": "zona",
+  "titulo": "A zona de frescos teve bastante tráfego.",
+  "observacao": "Muitas pessoas visitaram esta seção hoje.",
+  "implicacao": "Aumento de movimento.",
+  "recomendacao": "Melhorar o atendimento.",
+  "urgencia": "esta_semana",
+  "confianca": 0.5
+}
+
+--- BOM INSIGHT (específico, acionável) ---
+{
+  "id": "INS_GOOD_1",
+  "categoria": "zona",
+  "titulo": "Z_S3 com tráfego 31% acima da média na quinta-feira",
+  "observacao": "A zona Z_S3 teve 847 visitantes na quinta-feira, 31% acima da média semanal de 647.",
+  "implicacao": "O aumento pode indicar sucesso de uma promoção local ou evento externo.",
+  "recomendacao": "Verificar se houve promoção ativa e replicar o layout na próxima semana.",
+  "urgencia": "proximo_mes",
+  "confianca": 0.92
+}
+
+--- BOM INSIGHT (anomalia) ---
+{
+  "id": "INS_GOOD_2",
+  "categoria": "anomalia",
+  "titulo": "Z_N4 com 0 visitantes no domingo às 16h (habitual: 23)",
+  "observacao": "No domingo às 16h, Z_N4 registou 0 visitantes contra uma média de 23.",
+  "implicacao": "Possível obstrução física ou problema de sinalização nesta via.",
+  "recomendacao": "Verificar imediatamente se há obstáculos no corredor Z_N4.",
+  "urgencia": "imediata",
+  "confianca": 0.95
+}
+
+
+SCHEMA DE OUTPUT:
+
+{
+  "insights": [
+    {
+      "id": "INS_001",
+      "categoria": "trafego|zona|funil|anomalia|demografico",
+      "titulo": "frase curta que resume o insight",
+      "observacao": "o que os dados mostram: factos, números concretos",
+      "implicacao": "o que isto significa operacionalmente",
+      "recomendacao": "ação concreta que o gestor pode tomar",
+      "urgencia": "imediata|esta_semana|proximo_mes",
+      "confianca": 0.0
+    }
+  ],
+  "resumo_executivo": "3 bullets com os insights mais importantes"
+}
+
+
+DADOS DA SEMANA:
+{
+  "trafego": {
+    "total_visitantes_semana": 28377,
+    "media_diaria": 4056.43,
+    "dia_mais_movimentado": "2025-03-15"
+  },
+  "zonas": {
+    "top_trafego": [
+      {
+        "zone": "Z_C2",
+        "visits": 17976
+      },
+      {
+        "zone": "Z_C1",
+        "visits": 15209
+      },
+      {
+        "zone": "Z_C3",
+        "visits": 9686
+      },
+      {
+        "zone": "Z_E1",
+        "visits": 5429
+      },
+      {
+        "zone": "Z_E2",
+        "visits": 5283
+      }
+    ]
+  },
+  "funil": {
+    "taxa_conversao_caixa": 0.56,
+    "nao_chegaram_caixa": 4487
+  }
+}
+
+Responde apenas com o JSON.

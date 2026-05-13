@@ -1,0 +1,1458 @@
+{
+  "dataset_info": {
+    "total_events": 85347,
+    "total_unique_persons": 28377,
+    "total_zones": 23,
+    "date_range": {
+      "start": "2025-03-10",
+      "end": "2025-03-16"
+    },
+    "days_covered": 7,
+    "store_hours": "09:00–21:00"
+  },
+  "traffic": {
+    "total_visitors_week": 28377,
+    "visitors_per_day": {
+      "2025-03-10": 3697,
+      "2025-03-11": 3176,
+      "2025-03-12": 3982,
+      "2025-03-13": 4052,
+      "2025-03-14": 3738,
+      "2025-03-15": 5052,
+      "2025-03-16": 4698
+    },
+    "visitors_per_hour": {
+      "9": 962,
+      "10": 1768,
+      "11": 2662,
+      "12": 3087,
+      "13": 3032,
+      "14": 2384,
+      "15": 2108,
+      "16": 2346,
+      "17": 3129,
+      "18": 2958,
+      "19": 2677,
+      "20": 1641,
+      "21": 339
+    },
+    "peak_hour": 17,
+    "avg_visit_duration_min": 4.43,
+    "median_visit_duration_min": 3.8,
+    "busiest_day": "2025-03-15",
+    "quietest_day": "2025-03-11",
+    "daily_avg_visitors": 4056.43,
+    "daily_std_visitors": 634.31
+  },
+  "zones": {
+    "zone_stats": {
+      "Z_C1": {
+        "total_visits": 15209,
+        "unique_visitors": 10631,
+        "avg_dwell_s": 23.65,
+        "stop_rate": 0.61,
+        "zone_type": "Z_C"
+      },
+      "Z_C2": {
+        "total_visits": 17976,
+        "unique_visitors": 11572,
+        "avg_dwell_s": 23.74,
+        "stop_rate": 0.63,
+        "zone_type": "Z_C"
+      },
+      "Z_C3": {
+        "total_visits": 9686,
+        "unique_visitors": 7497,
+        "avg_dwell_s": 23.95,
+        "stop_rate": 0.7,
+        "zone_type": "Z_C"
+      },
+      "Z_CK": {
+        "total_visits": 4261,
+        "unique_visitors": 4223,
+        "avg_dwell_s": 186.46,
+        "stop_rate": 0.52,
+        "zone_type": "Z_CK"
+      },
+      "Z_E1": {
+        "total_visits": 5429,
+        "unique_visitors": 5295,
+        "avg_dwell_s": 16.35,
+        "stop_rate": 0.59,
+        "zone_type": "Z_E"
+      },
+      "Z_E2": {
+        "total_visits": 5283,
+        "unique_visitors": 5169,
+        "avg_dwell_s": 16.23,
+        "stop_rate": 0.58,
+        "zone_type": "Z_E"
+      },
+      "Z_N1": {
+        "total_visits": 1790,
+        "unique_visitors": 1687,
+        "avg_dwell_s": 187.48,
+        "stop_rate": 0.76,
+        "zone_type": "Z_N"
+      },
+      "Z_N10": {
+        "total_visits": 2518,
+        "unique_visitors": 2338,
+        "avg_dwell_s": 190.18,
+        "stop_rate": 0.74,
+        "zone_type": "Z_N"
+      },
+      "Z_N2": {
+        "total_visits": 1694,
+        "unique_visitors": 1617,
+        "avg_dwell_s": 190.27,
+        "stop_rate": 0.75,
+        "zone_type": "Z_N"
+      },
+      "Z_N3": {
+        "total_visits": 1868,
+        "unique_visitors": 1775,
+        "avg_dwell_s": 186.23,
+        "stop_rate": 0.75,
+        "zone_type": "Z_N"
+      },
+      "Z_N4": {
+        "total_visits": 1558,
+        "unique_visitors": 1490,
+        "avg_dwell_s": 190.8,
+        "stop_rate": 0.77,
+        "zone_type": "Z_N"
+      },
+      "Z_N5": {
+        "total_visits": 2550,
+        "unique_visitors": 2369,
+        "avg_dwell_s": 189.42,
+        "stop_rate": 0.75,
+        "zone_type": "Z_N"
+      },
+      "Z_N6": {
+        "total_visits": 1999,
+        "unique_visitors": 1883,
+        "avg_dwell_s": 188.49,
+        "stop_rate": 0.75,
+        "zone_type": "Z_N"
+      },
+      "Z_N7": {
+        "total_visits": 1729,
+        "unique_visitors": 1657,
+        "avg_dwell_s": 186.99,
+        "stop_rate": 0.76,
+        "zone_type": "Z_N"
+      },
+      "Z_N8": {
+        "total_visits": 2231,
+        "unique_visitors": 2100,
+        "avg_dwell_s": 187.08,
+        "stop_rate": 0.73,
+        "zone_type": "Z_N"
+      },
+      "Z_N9": {
+        "total_visits": 2130,
+        "unique_visitors": 2001,
+        "avg_dwell_s": 193.14,
+        "stop_rate": 0.74,
+        "zone_type": "Z_N"
+      },
+      "Z_S1": {
+        "total_visits": 1085,
+        "unique_visitors": 1061,
+        "avg_dwell_s": 190.55,
+        "stop_rate": 0.8,
+        "zone_type": "Z_S"
+      },
+      "Z_S2": {
+        "total_visits": 591,
+        "unique_visitors": 578,
+        "avg_dwell_s": 196.13,
+        "stop_rate": 0.85,
+        "zone_type": "Z_S"
+      },
+      "Z_S3": {
+        "total_visits": 1471,
+        "unique_visitors": 1425,
+        "avg_dwell_s": 190.0,
+        "stop_rate": 0.77,
+        "zone_type": "Z_S"
+      },
+      "Z_S4": {
+        "total_visits": 1095,
+        "unique_visitors": 1061,
+        "avg_dwell_s": 194.28,
+        "stop_rate": 0.81,
+        "zone_type": "Z_S"
+      },
+      "Z_S5": {
+        "total_visits": 1560,
+        "unique_visitors": 1473,
+        "avg_dwell_s": 104.42,
+        "stop_rate": 0.8,
+        "zone_type": "Z_S"
+      },
+      "Z_S6": {
+        "total_visits": 886,
+        "unique_visitors": 872,
+        "avg_dwell_s": 194.12,
+        "stop_rate": 0.82,
+        "zone_type": "Z_S"
+      },
+      "Z_S7": {
+        "total_visits": 748,
+        "unique_visitors": 734,
+        "avg_dwell_s": 190.59,
+        "stop_rate": 0.84,
+        "zone_type": "Z_S"
+      }
+    },
+    "traffic_ranking": [
+      {
+        "zone": "Z_C2",
+        "visits": 17976
+      },
+      {
+        "zone": "Z_C1",
+        "visits": 15209
+      },
+      {
+        "zone": "Z_C3",
+        "visits": 9686
+      },
+      {
+        "zone": "Z_E1",
+        "visits": 5429
+      },
+      {
+        "zone": "Z_E2",
+        "visits": 5283
+      },
+      {
+        "zone": "Z_CK",
+        "visits": 4261
+      },
+      {
+        "zone": "Z_N5",
+        "visits": 2550
+      },
+      {
+        "zone": "Z_N10",
+        "visits": 2518
+      },
+      {
+        "zone": "Z_N8",
+        "visits": 2231
+      },
+      {
+        "zone": "Z_N9",
+        "visits": 2130
+      },
+      {
+        "zone": "Z_N6",
+        "visits": 1999
+      },
+      {
+        "zone": "Z_N3",
+        "visits": 1868
+      },
+      {
+        "zone": "Z_N1",
+        "visits": 1790
+      },
+      {
+        "zone": "Z_N7",
+        "visits": 1729
+      },
+      {
+        "zone": "Z_N2",
+        "visits": 1694
+      },
+      {
+        "zone": "Z_S5",
+        "visits": 1560
+      },
+      {
+        "zone": "Z_N4",
+        "visits": 1558
+      },
+      {
+        "zone": "Z_S3",
+        "visits": 1471
+      },
+      {
+        "zone": "Z_S4",
+        "visits": 1095
+      },
+      {
+        "zone": "Z_S1",
+        "visits": 1085
+      },
+      {
+        "zone": "Z_S6",
+        "visits": 886
+      },
+      {
+        "zone": "Z_S7",
+        "visits": 748
+      },
+      {
+        "zone": "Z_S2",
+        "visits": 591
+      }
+    ],
+    "top_bigrams": [
+      {
+        "sequence": [
+          "Z_C2",
+          "Z_C1"
+        ],
+        "count": 3078
+      },
+      {
+        "sequence": [
+          "Z_C2",
+          "Z_C2"
+        ],
+        "count": 2834
+      },
+      {
+        "sequence": [
+          "Z_C1",
+          "Z_C2"
+        ],
+        "count": 2743
+      },
+      {
+        "sequence": [
+          "Z_C2",
+          "Z_C3"
+        ],
+        "count": 2242
+      },
+      {
+        "sequence": [
+          "Z_C1",
+          "Z_C1"
+        ],
+        "count": 1970
+      },
+      {
+        "sequence": [
+          "Z_C3",
+          "Z_C2"
+        ],
+        "count": 1587
+      },
+      {
+        "sequence": [
+          "Z_C3",
+          "Z_C1"
+        ],
+        "count": 1286
+      },
+      {
+        "sequence": [
+          "Z_C1",
+          "Z_C3"
+        ],
+        "count": 1279
+      },
+      {
+        "sequence": [
+          "Z_C1",
+          "Z_CK"
+        ],
+        "count": 1229
+      },
+      {
+        "sequence": [
+          "Z_C2",
+          "Z_E1"
+        ],
+        "count": 979
+      }
+    ],
+    "top_trigrams": [
+      {
+        "sequence": [
+          "Z_C2",
+          "Z_C2",
+          "Z_C1"
+        ],
+        "count": 537
+      },
+      {
+        "sequence": [
+          "Z_C1",
+          "Z_C2",
+          "Z_C2"
+        ],
+        "count": 465
+      },
+      {
+        "sequence": [
+          "Z_C2",
+          "Z_C1",
+          "Z_C2"
+        ],
+        "count": 464
+      },
+      {
+        "sequence": [
+          "Z_C2",
+          "Z_C1",
+          "Z_C1"
+        ],
+        "count": 464
+      },
+      {
+        "sequence": [
+          "Z_C2",
+          "Z_C2",
+          "Z_C3"
+        ],
+        "count": 419
+      },
+      {
+        "sequence": [
+          "Z_C2",
+          "Z_C2",
+          "Z_C2"
+        ],
+        "count": 416
+      },
+      {
+        "sequence": [
+          "Z_C1",
+          "Z_C1",
+          "Z_C2"
+        ],
+        "count": 395
+      },
+      {
+        "sequence": [
+          "Z_C1",
+          "Z_C2",
+          "Z_C3"
+        ],
+        "count": 378
+      },
+      {
+        "sequence": [
+          "Z_C1",
+          "Z_C2",
+          "Z_C1"
+        ],
+        "count": 372
+      },
+      {
+        "sequence": [
+          "Z_C2",
+          "Z_C1",
+          "Z_C3"
+        ],
+        "count": 333
+      }
+    ]
+  },
+  "funnel": {
+    "funnel": {
+      "entered_store": 10223,
+      "reached_corridor": 3309,
+      "reached_section": 1618,
+      "reached_checkout": 5736
+    },
+    "conversion_rate_to_checkout": 0.56,
+    "did_not_checkout": {
+      "count": 4487,
+      "gender_breakdown": {
+        "M": 2271,
+        "F": 2216
+      },
+      "age_breakdown": {
+        "adult": 1284,
+        "middle_aged": 1081,
+        "young_adult": 904,
+        "senior": 487,
+        "teenager": 378,
+        "child": 353
+      },
+      "last_zone_before_leaving": {
+        "Z_E1": 2216,
+        "Z_E2": 2134,
+        "Z_N9": 14,
+        "Z_N3": 14,
+        "Z_N5": 12,
+        "Z_N8": 11,
+        "Z_N4": 10,
+        "Z_N6": 10,
+        "Z_N2": 9,
+        "Z_N1": 8
+      }
+    },
+    "avg_visit_min_buyers": 3.19,
+    "avg_visit_min_non_buyers": 0.41
+  },
+  "demographics": {
+    "global": {
+      "gender_distribution": {
+        "M": 14389,
+        "F": 13988
+      },
+      "age_distribution": {
+        "adult": 8932,
+        "middle_aged": 7647,
+        "young_adult": 5246,
+        "senior": 2800,
+        "teenager": 2079,
+        "child": 1673
+      }
+    },
+    "gender_by_hour": {
+      "9": {
+        "F": 477,
+        "M": 485
+      },
+      "10": {
+        "F": 902,
+        "M": 827
+      },
+      "11": {
+        "F": 1328,
+        "M": 1286
+      },
+      "12": {
+        "F": 1536,
+        "M": 1492
+      },
+      "13": {
+        "F": 1423,
+        "M": 1529
+      },
+      "14": {
+        "F": 1061,
+        "M": 1247
+      },
+      "15": {
+        "F": 984,
+        "M": 1068
+      },
+      "16": {
+        "F": 1217,
+        "M": 1086
+      },
+      "17": {
+        "F": 1529,
+        "M": 1535
+      },
+      "18": {
+        "F": 1346,
+        "M": 1537
+      },
+      "19": {
+        "F": 1276,
+        "M": 1329
+      },
+      "20": {
+        "F": 771,
+        "M": 816
+      },
+      "21": {
+        "F": 146,
+        "M": 159
+      }
+    },
+    "age_by_hour": {
+      "9": {
+        "adult": 299,
+        "child": 80,
+        "middle_aged": 250,
+        "senior": 115,
+        "teenager": 49,
+        "young_adult": 169
+      },
+      "10": {
+        "adult": 604,
+        "child": 115,
+        "middle_aged": 427,
+        "senior": 193,
+        "teenager": 115,
+        "young_adult": 275
+      },
+      "11": {
+        "adult": 843,
+        "child": 168,
+        "middle_aged": 691,
+        "senior": 254,
+        "teenager": 200,
+        "young_adult": 458
+      },
+      "12": {
+        "adult": 1019,
+        "child": 236,
+        "middle_aged": 760,
+        "senior": 304,
+        "teenager": 250,
+        "young_adult": 459
+      },
+      "13": {
+        "adult": 831,
+        "child": 190,
+        "middle_aged": 867,
+        "senior": 294,
+        "teenager": 206,
+        "young_adult": 564
+      },
+      "14": {
+        "adult": 759,
+        "child": 131,
+        "middle_aged": 695,
+        "senior": 156,
+        "teenager": 133,
+        "young_adult": 434
+      },
+      "15": {
+        "adult": 564,
+        "child": 110,
+        "middle_aged": 564,
+        "senior": 249,
+        "teenager": 174,
+        "young_adult": 391
+      },
+      "16": {
+        "adult": 706,
+        "child": 98,
+        "middle_aged": 610,
+        "senior": 205,
+        "teenager": 170,
+        "young_adult": 514
+      },
+      "17": {
+        "adult": 869,
+        "child": 170,
+        "middle_aged": 716,
+        "senior": 361,
+        "teenager": 308,
+        "young_adult": 640
+      },
+      "18": {
+        "adult": 932,
+        "child": 148,
+        "middle_aged": 825,
+        "senior": 283,
+        "teenager": 203,
+        "young_adult": 492
+      },
+      "19": {
+        "adult": 877,
+        "child": 131,
+        "middle_aged": 734,
+        "senior": 245,
+        "teenager": 153,
+        "young_adult": 465
+      },
+      "20": {
+        "adult": 517,
+        "child": 90,
+        "middle_aged": 435,
+        "senior": 115,
+        "teenager": 101,
+        "young_adult": 329
+      },
+      "21": {
+        "adult": 117,
+        "child": 7,
+        "middle_aged": 77,
+        "senior": 27,
+        "teenager": 18,
+        "young_adult": 59
+      }
+    },
+    "avg_dwell_by_gender_and_zone": {
+      "F": {
+        "Z_C1": 23.6,
+        "Z_C2": 23.9,
+        "Z_C3": 24.0,
+        "Z_CK": 189.8,
+        "Z_E1": 16.5,
+        "Z_E2": 16.3,
+        "Z_N1": 188.6,
+        "Z_N10": 185.9,
+        "Z_N2": 188.6,
+        "Z_N3": 181.7,
+        "Z_N4": 187.5,
+        "Z_N5": 185.2,
+        "Z_N6": 184.7,
+        "Z_N7": 182.7,
+        "Z_N8": 189.1,
+        "Z_N9": 194.5,
+        "Z_S1": 197.3,
+        "Z_S2": 196.1,
+        "Z_S3": 186.6,
+        "Z_S4": 187.8,
+        "Z_S5": 106.6,
+        "Z_S6": 193.5,
+        "Z_S7": 186.9
+      },
+      "M": {
+        "Z_C1": 23.7,
+        "Z_C2": 23.6,
+        "Z_C3": 23.9,
+        "Z_CK": 183.5,
+        "Z_E1": 16.2,
+        "Z_E2": 16.2,
+        "Z_N1": 186.4,
+        "Z_N10": 194.4,
+        "Z_N2": 191.9,
+        "Z_N3": 190.6,
+        "Z_N4": 194.0,
+        "Z_N5": 193.6,
+        "Z_N6": 192.3,
+        "Z_N7": 190.8,
+        "Z_N8": 185.1,
+        "Z_N9": 191.8,
+        "Z_S1": 184.2,
+        "Z_S2": 196.1,
+        "Z_S3": 193.0,
+        "Z_S4": 200.6,
+        "Z_S5": 102.4,
+        "Z_S6": 194.6,
+        "Z_S7": 194.2
+      }
+    },
+    "avg_dwell_by_age_and_zone": {
+      "adult": {
+        "Z_C1": 23.6,
+        "Z_C2": 23.9,
+        "Z_C3": 23.9,
+        "Z_CK": 185.7,
+        "Z_E1": 16.4,
+        "Z_E2": 16.2,
+        "Z_N1": 186.9,
+        "Z_N10": 192.9,
+        "Z_N2": 183.1,
+        "Z_N3": 189.6,
+        "Z_N4": 186.0,
+        "Z_N5": 185.2,
+        "Z_N6": 189.0,
+        "Z_N7": 183.9,
+        "Z_N8": 189.2,
+        "Z_N9": 198.0,
+        "Z_S1": 182.4,
+        "Z_S2": 192.9,
+        "Z_S3": 182.7,
+        "Z_S4": 183.0,
+        "Z_S5": 106.1,
+        "Z_S6": 196.7,
+        "Z_S7": 191.3
+      },
+      "child": {
+        "Z_C1": 24.1,
+        "Z_C2": 23.3,
+        "Z_C3": 23.6,
+        "Z_CK": 185.1,
+        "Z_E1": 16.3,
+        "Z_E2": 16.2,
+        "Z_N1": 175.1,
+        "Z_N10": 158.5,
+        "Z_N2": 154.4,
+        "Z_N3": 140.9,
+        "Z_N4": 164.2,
+        "Z_N5": 167.0,
+        "Z_N6": 160.0,
+        "Z_N7": 159.7,
+        "Z_N8": 170.9,
+        "Z_N9": 175.6,
+        "Z_S1": 179.8,
+        "Z_S2": 178.0,
+        "Z_S3": 164.1,
+        "Z_S4": 143.9,
+        "Z_S5": 82.6,
+        "Z_S6": 162.2,
+        "Z_S7": 145.7
+      },
+      "middle_aged": {
+        "Z_C1": 23.7,
+        "Z_C2": 23.7,
+        "Z_C3": 24.2,
+        "Z_CK": 189.4,
+        "Z_E1": 16.3,
+        "Z_E2": 16.1,
+        "Z_N1": 189.4,
+        "Z_N10": 189.1,
+        "Z_N2": 200.5,
+        "Z_N3": 194.6,
+        "Z_N4": 200.9,
+        "Z_N5": 197.0,
+        "Z_N6": 196.4,
+        "Z_N7": 192.9,
+        "Z_N8": 188.7,
+        "Z_N9": 198.9,
+        "Z_S1": 194.1,
+        "Z_S2": 204.8,
+        "Z_S3": 205.1,
+        "Z_S4": 219.2,
+        "Z_S5": 108.0,
+        "Z_S6": 196.6,
+        "Z_S7": 201.4
+      },
+      "senior": {
+        "Z_C1": 24.3,
+        "Z_C2": 23.7,
+        "Z_C3": 23.9,
+        "Z_CK": 176.0,
+        "Z_E1": 16.0,
+        "Z_E2": 16.4,
+        "Z_N1": 202.1,
+        "Z_N10": 197.2,
+        "Z_N2": 198.3,
+        "Z_N3": 200.7,
+        "Z_N4": 221.2,
+        "Z_N5": 205.0,
+        "Z_N6": 193.1,
+        "Z_N7": 197.7,
+        "Z_N8": 200.8,
+        "Z_N9": 197.9,
+        "Z_S1": 190.2,
+        "Z_S2": 201.2,
+        "Z_S3": 201.3,
+        "Z_S4": 204.0,
+        "Z_S5": 101.7,
+        "Z_S6": 210.5,
+        "Z_S7": 205.8
+      },
+      "teenager": {
+        "Z_C1": 23.5,
+        "Z_C2": 23.7,
+        "Z_C3": 23.5,
+        "Z_CK": 188.6,
+        "Z_E1": 16.6,
+        "Z_E2": 16.5,
+        "Z_N1": 170.5,
+        "Z_N10": 185.6,
+        "Z_N2": 194.2,
+        "Z_N3": 177.7,
+        "Z_N4": 191.6,
+        "Z_N5": 185.9,
+        "Z_N6": 172.8,
+        "Z_N7": 182.6,
+        "Z_N8": 172.8,
+        "Z_N9": 181.7,
+        "Z_S1": 197.6,
+        "Z_S2": 171.6,
+        "Z_S3": 188.3,
+        "Z_S4": 213.5,
+        "Z_S5": 100.5,
+        "Z_S6": 183.3,
+        "Z_S7": 167.1
+      },
+      "young_adult": {
+        "Z_C1": 23.2,
+        "Z_C2": 23.6,
+        "Z_C3": 23.9,
+        "Z_CK": 188.3,
+        "Z_E1": 16.5,
+        "Z_E2": 16.3,
+        "Z_N1": 188.1,
+        "Z_N10": 193.7,
+        "Z_N2": 187.3,
+        "Z_N3": 177.1,
+        "Z_N4": 177.0,
+        "Z_N5": 184.3,
+        "Z_N6": 185.4,
+        "Z_N7": 186.2,
+        "Z_N8": 183.9,
+        "Z_N9": 181.3,
+        "Z_S1": 200.1,
+        "Z_S2": 201.2,
+        "Z_S3": 181.9,
+        "Z_S4": 182.2,
+        "Z_S5": 106.0,
+        "Z_S6": 191.7,
+        "Z_S7": 183.4
+      }
+    }
+  },
+  "anomalies": {
+    "analysis_target_date": "2025-03-16",
+    "baseline_dates": [
+      "2025-03-10",
+      "2025-03-11",
+      "2025-03-12",
+      "2025-03-13",
+      "2025-03-14",
+      "2025-03-15"
+    ],
+    "anomalies_zone_hour": [
+      {
+        "zone_id": "Z_S6",
+        "hour_of_day": 21,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 5,
+        "baseline_mean": 2.25,
+        "baseline_std": 0.5,
+        "z_score": 5.5,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_S4",
+        "hour_of_day": 21,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 6,
+        "baseline_mean": 1.8,
+        "baseline_std": 0.84,
+        "z_score": 5.02,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_C2",
+        "hour_of_day": 21,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 42,
+        "baseline_mean": 16.17,
+        "baseline_std": 5.64,
+        "z_score": 4.58,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N1",
+        "hour_of_day": 13,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 17,
+        "baseline_mean": 25.83,
+        "baseline_std": 1.94,
+        "z_score": 4.55,
+        "direction": "abaixo",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N4",
+        "hour_of_day": 21,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 6,
+        "baseline_mean": 2.4,
+        "baseline_std": 0.89,
+        "z_score": 4.02,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_S2",
+        "hour_of_day": 21,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 3,
+        "baseline_mean": 1.2,
+        "baseline_std": 0.45,
+        "z_score": 4.02,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_C1",
+        "hour_of_day": 21,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 31,
+        "baseline_mean": 15.0,
+        "baseline_std": 4.24,
+        "z_score": 3.77,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N3",
+        "hour_of_day": 19,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 37,
+        "baseline_mean": 23.5,
+        "baseline_std": 3.62,
+        "z_score": 3.73,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_S4",
+        "hour_of_day": 13,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 25,
+        "baseline_mean": 16.33,
+        "baseline_std": 2.34,
+        "z_score": 3.71,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_C1",
+        "hour_of_day": 12,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 184,
+        "baseline_mean": 158.0,
+        "baseline_std": 7.13,
+        "z_score": 3.65,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N4",
+        "hour_of_day": 18,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 14,
+        "baseline_mean": 19.67,
+        "baseline_std": 1.63,
+        "z_score": 3.47,
+        "direction": "abaixo",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N5",
+        "hour_of_day": 21,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 4,
+        "baseline_mean": 2.0,
+        "baseline_std": 0.63,
+        "z_score": 3.16,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_S1",
+        "hour_of_day": 19,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 19,
+        "baseline_mean": 13.5,
+        "baseline_std": 1.76,
+        "z_score": 3.12,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N4",
+        "hour_of_day": 10,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 21,
+        "baseline_mean": 13.67,
+        "baseline_std": 2.42,
+        "z_score": 3.03,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_S1",
+        "hour_of_day": 14,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 27,
+        "baseline_mean": 11.33,
+        "baseline_std": 5.47,
+        "z_score": 2.87,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_S3",
+        "hour_of_day": 21,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 4,
+        "baseline_mean": 2.0,
+        "baseline_std": 0.71,
+        "z_score": 2.83,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N1",
+        "hour_of_day": 19,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 28,
+        "baseline_mean": 19.5,
+        "baseline_std": 3.02,
+        "z_score": 2.82,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_C3",
+        "hour_of_day": 21,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 19,
+        "baseline_mean": 8.5,
+        "baseline_std": 3.78,
+        "z_score": 2.78,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N9",
+        "hour_of_day": 11,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 13,
+        "baseline_mean": 24.67,
+        "baseline_std": 4.23,
+        "z_score": 2.76,
+        "direction": "abaixo",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N3",
+        "hour_of_day": 21,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 5,
+        "baseline_mean": 2.6,
+        "baseline_std": 0.89,
+        "z_score": 2.68,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N8",
+        "hour_of_day": 19,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 40,
+        "baseline_mean": 24.0,
+        "baseline_std": 6.1,
+        "z_score": 2.62,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N3",
+        "hour_of_day": 17,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 22,
+        "baseline_mean": 28.83,
+        "baseline_std": 2.64,
+        "z_score": 2.59,
+        "direction": "abaixo",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N1",
+        "hour_of_day": 14,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 33,
+        "baseline_mean": 17.83,
+        "baseline_std": 6.05,
+        "z_score": 2.51,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N6",
+        "hour_of_day": 14,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 34,
+        "baseline_mean": 19.83,
+        "baseline_std": 5.67,
+        "z_score": 2.5,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N3",
+        "hour_of_day": 10,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 23,
+        "baseline_mean": 13.0,
+        "baseline_std": 4.15,
+        "z_score": 2.41,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_E2",
+        "hour_of_day": 21,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 13,
+        "baseline_mean": 5.67,
+        "baseline_std": 3.08,
+        "z_score": 2.38,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_S5",
+        "hour_of_day": 15,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 25,
+        "baseline_mean": 14.83,
+        "baseline_std": 4.31,
+        "z_score": 2.36,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_S5",
+        "hour_of_day": 12,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 28,
+        "baseline_mean": 19.5,
+        "baseline_std": 3.83,
+        "z_score": 2.22,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N5",
+        "hour_of_day": 19,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 42,
+        "baseline_mean": 31.83,
+        "baseline_std": 4.62,
+        "z_score": 2.2,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_N9",
+        "hour_of_day": 19,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 34,
+        "baseline_mean": 23.67,
+        "baseline_std": 4.76,
+        "z_score": 2.17,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      },
+      {
+        "zone_id": "Z_S7",
+        "hour_of_day": 14,
+        "date_analyzed": "2025-03-16",
+        "visitors_day7": 16,
+        "baseline_mean": 8.17,
+        "baseline_std": 3.71,
+        "z_score": 2.11,
+        "direction": "acima",
+        "baseline_days": [
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15"
+        ]
+      }
+    ],
+    "n_anomalies_found": 31,
+    "daily_traffic_anomaly": {
+      "target_date": "2025-03-16",
+      "visitors": 4698,
+      "baseline_mean": 3949.5,
+      "baseline_std": 621.91,
+      "z_score": 1.2,
+      "is_anomalous": "False"
+    }
+  }
+}
