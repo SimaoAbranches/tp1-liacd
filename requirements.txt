@@ -1,0 +1,14 @@
+certifi==2026.4.22
+charset-normalizer==3.4.7
+dataclasses==0.6
+idna==3.14
+numpy==2.0.2
+pandas==2.3.3
+python-dateutil==2.9.0.post0
+pytz==2026.2
+requests==2.32.5
+six==1.17.0
+typing==3.7.4.3
+tzdata==2026.2
+urllib3==2.6.3
+uuid==1.30
