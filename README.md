@@ -25,5 +25,27 @@ O pipeline foi desenhado de forma modular. Para gerar o relatório final, execut
 
 1. **Reconstrução de Trajetórias (Stitching):**
    ```bash
-   python src/stitcher.py --input data/events.csv
-2. **Configurar o Modelo Local:**
+   python src/stitcher.py --input data/events.csv --output output/journeys.csv
+2. **Pipeline Analítico:**
+   ```bash
+   python src/analytics.py --input output/journeys.csv --output output/metrics.json
+3. **Motor de Insights (LLM):**
+   ```bash
+   python src/insights.py --input output/metrics.json --output output/insights.json
+4. **Geração do Relatório Final (Markdown):**
+   ```bash
+   python src/report.py --input output/insights.json --output output/weekly_report.md --metrics output/metrics.json
+
+**Avaliação e Reprodutibilidade**
+
+Para validar a performance e a consistência do pipeline, utiliza o seguinte comando:
+```bash
+python evaluate.py --data data/events.csv --output output/evaluation_report.json
+```
+## Configuração do Modelo Local
+
+Este projeto utiliza o Ollama para garantir que os dados permanecem locais e privados.
+
+Modelo: qwen2.5:0.5b
+
+Comando para descarregar: ollama pull qwen2.5:0.5b
