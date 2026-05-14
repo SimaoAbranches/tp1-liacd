@@ -68,8 +68,8 @@ SCHEMA DE OUTPUT:
 DADOS DA SEMANA:
 {
   "trafego": {
-    "total_visitantes_semana": 28377,
-    "media_diaria": 4056.43,
+    "total_visitantes_semana": 28371,
+    "media_diaria": 4056.29,
     "dia_mais_movimentado": "2025-03-15"
   },
   "zonas": {
@@ -98,7 +98,7 @@ DADOS DA SEMANA:
   },
   "funil": {
     "taxa_conversao_caixa": 0.56,
-    "nao_chegaram_caixa": 4487
+    "nao_chegaram_caixa": 4492
   }
 }
 

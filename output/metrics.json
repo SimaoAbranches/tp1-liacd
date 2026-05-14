@@ -1,7 +1,7 @@
 {
   "dataset_info": {
     "total_events": 85347,
-    "total_unique_persons": 28377,
+    "total_unique_persons": 28379,
     "total_zones": 23,
     "date_range": {
       "start": "2025-03-10",
@@ -11,28 +11,28 @@
     "store_hours": "09:00–21:00"
   },
   "traffic": {
-    "total_visitors_week": 28377,
+    "total_visitors_week": 28379,
     "visitors_per_day": {
-      "2025-03-10": 3697,
+      "2025-03-10": 3698,
       "2025-03-11": 3176,
       "2025-03-12": 3982,
-      "2025-03-13": 4052,
+      "2025-03-13": 4050,
       "2025-03-14": 3738,
-      "2025-03-15": 5052,
+      "2025-03-15": 5054,
       "2025-03-16": 4698
     },
     "visitors_per_hour": {
       "9": 962,
       "10": 1768,
       "11": 2662,
-      "12": 3087,
+      "12": 3086,
       "13": 3032,
-      "14": 2384,
+      "14": 2385,
       "15": 2108,
       "16": 2346,
       "17": 3129,
       "18": 2958,
-      "19": 2677,
+      "19": 2678,
       "20": 1641,
       "21": 339
     },
@@ -41,8 +41,8 @@
     "median_visit_duration_min": 3.8,
     "busiest_day": "2025-03-15",
     "quietest_day": "2025-03-11",
-    "daily_avg_visitors": 4056.43,
-    "daily_std_visitors": 634.31
+    "daily_avg_visitors": 4056.57,
+    "daily_std_visitors": 634.74
   },
   "zones": {
     "zone_stats": {
@@ -55,21 +55,21 @@
       },
       "Z_C2": {
         "total_visits": 17976,
-        "unique_visitors": 11572,
+        "unique_visitors": 11571,
         "avg_dwell_s": 23.74,
         "stop_rate": 0.63,
         "zone_type": "Z_C"
       },
       "Z_C3": {
         "total_visits": 9686,
-        "unique_visitors": 7497,
+        "unique_visitors": 7498,
         "avg_dwell_s": 23.95,
         "stop_rate": 0.7,
         "zone_type": "Z_C"
       },
       "Z_CK": {
         "total_visits": 4261,
-        "unique_visitors": 4223,
+        "unique_visitors": 4222,
         "avg_dwell_s": 186.46,
         "stop_rate": 0.52,
         "zone_type": "Z_CK"
@@ -83,7 +83,7 @@
       },
       "Z_E2": {
         "total_visits": 5283,
-        "unique_visitors": 5169,
+        "unique_visitors": 5170,
         "avg_dwell_s": 16.23,
         "stop_rate": 0.58,
         "zone_type": "Z_E"
@@ -97,7 +97,7 @@
       },
       "Z_N10": {
         "total_visits": 2518,
-        "unique_visitors": 2338,
+        "unique_visitors": 2337,
         "avg_dwell_s": 190.18,
         "stop_rate": 0.74,
         "zone_type": "Z_N"
@@ -460,27 +460,27 @@
   "funnel": {
     "funnel": {
       "entered_store": 10223,
-      "reached_corridor": 3309,
-      "reached_section": 1618,
-      "reached_checkout": 5736
+      "reached_corridor": 3307,
+      "reached_section": 1616,
+      "reached_checkout": 5734
     },
     "conversion_rate_to_checkout": 0.56,
     "did_not_checkout": {
-      "count": 4487,
+      "count": 4489,
       "gender_breakdown": {
-        "M": 2271,
-        "F": 2216
+        "M": 2274,
+        "F": 2215
       },
       "age_breakdown": {
-        "adult": 1284,
+        "adult": 1285,
         "middle_aged": 1081,
         "young_adult": 904,
-        "senior": 487,
+        "senior": 489,
         "teenager": 378,
-        "child": 353
+        "child": 352
       },
       "last_zone_before_leaving": {
-        "Z_E1": 2216,
+        "Z_E1": 2218,
         "Z_E2": 2134,
         "Z_N9": 14,
         "Z_N3": 14,
@@ -493,31 +493,31 @@
       }
     },
     "avg_visit_min_buyers": 3.19,
-    "avg_visit_min_non_buyers": 0.41
+    "avg_visit_min_non_buyers": 0.4
   },
   "demographics": {
     "global": {
       "gender_distribution": {
-        "M": 14389,
+        "M": 14391,
         "F": 13988
       },
       "age_distribution": {
         "adult": 8932,
-        "middle_aged": 7647,
-        "young_adult": 5246,
-        "senior": 2800,
+        "middle_aged": 7650,
+        "young_adult": 5248,
+        "senior": 2797,
         "teenager": 2079,
         "child": 1673
       }
     },
     "gender_by_hour": {
       "9": {
-        "F": 477,
-        "M": 485
+        "F": 476,
+        "M": 486
       },
       "10": {
         "F": 902,
-        "M": 827
+        "M": 828
       },
       "11": {
         "F": 1328,
@@ -525,35 +525,35 @@
       },
       "12": {
         "F": 1536,
-        "M": 1492
+        "M": 1493
       },
       "13": {
-        "F": 1423,
-        "M": 1529
+        "F": 1421,
+        "M": 1531
       },
       "14": {
         "F": 1061,
-        "M": 1247
+        "M": 1248
       },
       "15": {
-        "F": 984,
-        "M": 1068
+        "F": 981,
+        "M": 1071
       },
       "16": {
-        "F": 1217,
-        "M": 1086
+        "F": 1220,
+        "M": 1083
       },
       "17": {
-        "F": 1529,
-        "M": 1535
+        "F": 1528,
+        "M": 1536
       },
       "18": {
-        "F": 1346,
-        "M": 1537
+        "F": 1345,
+        "M": 1538
       },
       "19": {
-        "F": 1276,
-        "M": 1329
+        "F": 1277,
+        "M": 1327
       },
       "20": {
         "F": 771,
@@ -566,15 +566,15 @@
     },
     "age_by_hour": {
       "9": {
-        "adult": 299,
+        "adult": 297,
         "child": 80,
-        "middle_aged": 250,
+        "middle_aged": 251,
         "senior": 115,
-        "teenager": 49,
+        "teenager": 50,
         "young_adult": 169
       },
       "10": {
-        "adult": 604,
+        "adult": 605,
         "child": 115,
         "middle_aged": 427,
         "senior": 193,
@@ -582,50 +582,50 @@
         "young_adult": 275
       },
       "11": {
-        "adult": 843,
-        "child": 168,
-        "middle_aged": 691,
+        "adult": 844,
+        "child": 169,
+        "middle_aged": 689,
         "senior": 254,
         "teenager": 200,
         "young_adult": 458
       },
       "12": {
-        "adult": 1019,
+        "adult": 1018,
         "child": 236,
-        "middle_aged": 760,
+        "middle_aged": 763,
         "senior": 304,
         "teenager": 250,
-        "young_adult": 459
+        "young_adult": 458
       },
       "13": {
-        "adult": 831,
+        "adult": 832,
         "child": 190,
         "middle_aged": 867,
-        "senior": 294,
+        "senior": 292,
         "teenager": 206,
-        "young_adult": 564
+        "young_adult": 565
       },
       "14": {
         "adult": 759,
         "child": 131,
         "middle_aged": 695,
-        "senior": 156,
+        "senior": 157,
         "teenager": 133,
         "young_adult": 434
       },
       "15": {
-        "adult": 564,
-        "child": 110,
-        "middle_aged": 564,
+        "adult": 563,
+        "child": 109,
+        "middle_aged": 565,
         "senior": 249,
-        "teenager": 174,
-        "young_adult": 391
+        "teenager": 173,
+        "young_adult": 393
       },
       "16": {
         "adult": 706,
-        "child": 98,
-        "middle_aged": 610,
-        "senior": 205,
+        "child": 99,
+        "middle_aged": 611,
+        "senior": 203,
         "teenager": 170,
         "young_adult": 514
       },
@@ -633,25 +633,25 @@
         "adult": 869,
         "child": 170,
         "middle_aged": 716,
-        "senior": 361,
-        "teenager": 308,
+        "senior": 362,
+        "teenager": 307,
         "young_adult": 640
       },
       "18": {
-        "adult": 932,
+        "adult": 930,
         "child": 148,
-        "middle_aged": 825,
-        "senior": 283,
+        "middle_aged": 828,
+        "senior": 282,
         "teenager": 203,
         "young_adult": 492
       },
       "19": {
         "adult": 877,
-        "child": 131,
-        "middle_aged": 734,
-        "senior": 245,
+        "child": 130,
+        "middle_aged": 736,
+        "senior": 244,
         "teenager": 153,
-        "young_adult": 465
+        "young_adult": 464
       },
       "20": {
         "adult": 517,
@@ -1449,8 +1449,8 @@
     "daily_traffic_anomaly": {
       "target_date": "2025-03-16",
       "visitors": 4698,
-      "baseline_mean": 3949.5,
-      "baseline_std": 621.91,
+      "baseline_mean": 3949.67,
+      "baseline_std": 622.47,
       "z_score": 1.2,
       "is_anomalous": "False"
     }
