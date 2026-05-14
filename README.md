@@ -7,7 +7,6 @@ O desafio central reside na fragmentação dos dados: os sensores captam eventos
 **Autor:** Simão Abranches nº53682
 **Modelo LLM:** qwen2.5:0.5b (via Ollama)
 
----
 
 ## Estrutura do Projeto
 
@@ -19,7 +18,6 @@ O repositório segue a estrutura organizada exigida para a submissão técnica:
 * `prompts/`: Estratégias de prompting (Zero-shot e Few-shot) em formato `.txt`.
 * `evaluate.py`: Script de avaliação de performance e consistência.
 
----
 
 ## Como Executar o Pipeline
 
@@ -28,3 +26,4 @@ O pipeline foi desenhado de forma modular. Para gerar o relatório final, execut
 1. **Reconstrução de Trajetórias (Stitching):**
    ```bash
    python src/stitcher.py --input data/events.csv
+2. **Configurar o Modelo Local:**
