@@ -23,6 +23,9 @@ O repositório segue a estrutura organizada exigida para a submissão técnica:
 
 O pipeline foi desenhado de forma modular. Para gerar o relatório final, executa os seguintes comandos no terminal:
 
+1. **Instalar dependências: pip install -r requirements.txt**
+   ```bash
+   pip install -r requirements.txt
 1. **Reconstrução de Trajetórias (Stitching):**
    ```bash
    python src/stitcher.py --input data/events.csv --output output/journeys.csv
